@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://8080-adaebadfaafeacdeacafbadecbcafddeada.project.examly.io",
     headers: {
         "Content-type": "application/json"
     }
